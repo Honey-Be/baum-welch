@@ -1,2 +1,2 @@
-# viterbi
-Viterbi Algorithm Implementation for Digit Recognition.
+# baum-welch
+Baum-Welch Algorithm Implementation for Digit Recognition.
