@@ -116,6 +116,6 @@ void runViterbi(size_t length, double spectrogram[][N_DIMENSION], vector<string>
         }
     }
     
-    valueType max = getMaxValue(length - 1);
-    backtrace(length - 1, max.prevVoca, max.prevPhone, max.prevState, result);
+    // valueType max = getMaxValue(length - 1); //
+    // backtrace(length - 1, max.prevVoca, max.prevPhone, max.prevState, result); //
 }
